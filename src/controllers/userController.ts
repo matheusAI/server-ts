@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
 import * as fs from 'fs';
 
-const dataPath = 'src/data/usuarios.json'; // Caminho para o arquivo de dados dos usuários
+const dataPath = 'src/data/usuarios.json';
 
 export default {
     async index(req: Request, res: Response) {
