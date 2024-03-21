@@ -1,14 +1,20 @@
-import express from "express"
-import routes from "./routers/Router"
-import { json } from "stream/consumers"
+import express from "express";
+import routes from "./routers/Router";
+import cors from "cors";
 
-const app = express()
+const app = express();
 
-const port = process.env.port || "3341"
+const port = process.env.port || "3341";
 
-app.use(express.json()),
-app.use(routes),
+const corsOptions = {
+  credentials: true,
+  origin: "*", // Altere para a origem correta do seu frontend
+};
 
-app.listen(port , () => {
-    console.log("server rodando...")
-})
+app.use(cors(corsOptions));
+app.use(express.json());
+app.use(routes);
+
+app.listen(port, () => {
+    console.log("Servidor rodando na porta", port);
+});
