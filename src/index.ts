@@ -1,16 +1,19 @@
 import Express from "express";
 import dotenv from "dotenv";
+import Routers from "./routes/Users.router";
+import { conectarDB } from "./config/db";
 
-dotenv.config()
+dotenv.config();
 
-const serve = Express();
+const server = Express();
 
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 3000;
 
-serve.get("/",(req , res)=> {
-    res.send("ola mundo")
-})
+server.use(Express.json);
+server.use("/api", Routers);
 
-serve.listen(port, ()=> {
-    console.log(`server rodando na porta:${port}`)
-})
+conectarDB();
+
+server.listen(port, () => {
+  console.log(`server rodando na porta:${port}`);
+});
