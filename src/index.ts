@@ -1,6 +1,6 @@
 import Express from "express";
 import dotenv from "dotenv";
-import Routers from "./routes/Users.router";
+import Routers from "./routes/index";
 import { conectarDB } from "./config/db";
 
 dotenv.config();
