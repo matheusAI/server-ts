@@ -1,8 +1,6 @@
-version: '3.1'
-
 services:
   mongo:
-    image: mongo
+    image: mongo:4.4
     restart: always
     ports:
       - 27017:27017
@@ -11,11 +9,6 @@ services:
       MONGO_INITDB_ROOT_PASSWORD: example
     volumes:
       - mongo-data:/data/db
-    healthcheck:
-      test: echo 'db.runCommand("ping").ok' | mongo --quiet
-      interval: 30s
-      timeout: 10s
-      retries: 5
 
 volumes:
   mongo-data:
