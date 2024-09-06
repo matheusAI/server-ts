@@ -5,6 +5,7 @@
   "scripts": {
     "start": "node ./src/dist/index.js",
     "dev": "ts-node-dev src/index.ts",
+    "start:prod": "tsc && node ./src/dist/index.js",
     "build": "tsc",
     "test": "jest"
   },
