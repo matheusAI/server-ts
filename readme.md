@@ -29,7 +29,11 @@ PORT=3000
 MONGODB_URI=mongodb://root:example@localhost:27017/meu_banco?authSource=admin
 JWT_SECRET=sua_chave_secreta_aqui
 ```
-5. Inicie o servidor:
+5. Certifique-se de que o MongoDB está rodando no Docker:
+```bash
+docker-compose up -d
+```
+6. Inicie o servidor:
 ```bash
 npm run start:prod
 ```
