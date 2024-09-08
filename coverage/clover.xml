@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1725757497881" clover="3.2.0">
+  <project timestamp="1725757497882" name="All files">
+    <metrics statements="70" coveredstatements="62" conditionals="13" coveredconditionals="8" methods="5" coveredmethods="5" elements="88" coveredelements="75" complexity="0" loc="70" ncloc="70" packages="5" files="7" classes="7"/>
+    <package name="config">
+      <metrics statements="12" coveredstatements="9" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="db.ts" path="C:\Users\ms227\OneDrive\Documentos\projetos\server\src\config\db.ts">
+        <metrics statements="12" coveredstatements="9" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="controller">
+      <metrics statements="27" coveredstatements="23" conditionals="11" coveredconditionals="7" methods="2" coveredmethods="2"/>
+      <file name="authController.ts" path="C:\Users\ms227\OneDrive\Documentos\projetos\server\src\controller\authController.ts">
+        <metrics statements="14" coveredstatements="12" conditionals="6" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="1" type="cond" truecount="2" falsecount="1"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="cond" truecount="2" falsecount="1"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+      </file>
+      <file name="registeController.ts" path="C:\Users\ms227\OneDrive\Documentos\projetos\server\src\controller\registeController.ts">
+        <metrics statements="13" coveredstatements="11" conditionals="5" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="middlewares">
+      <metrics statements="13" coveredstatements="12" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <file name="autenticarJWT.ts" path="C:\Users\ms227\OneDrive\Documentos\projetos\server\src\middlewares\autenticarJWT.ts">
+        <metrics statements="13" coveredstatements="12" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="18" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="models">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="Usuario.ts" path="C:\Users\ms227\OneDrive\Documentos\projetos\server\src\models\Usuario.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="routes">
+      <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="authRoutes.ts" path="C:\Users\ms227\OneDrive\Documentos\projetos\server\src\routes\authRoutes.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+      </file>
+      <file name="index.ts" path="C:\Users\ms227\OneDrive\Documentos\projetos\server\src\routes\index.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
